@@ -4,6 +4,16 @@ This is a Scrapper for Google map photo
 
 ## Install
 
+Request a Google Map API token from google
+Copy the .env.example and rename as .env
+Replace the Word in .env
+
+```ENV
+GOOGLE_MAPS_API_KEY=yours google API token
+```
+
+Then install the requirements.txt
+
 ```bash
 pip install googlemaps --use-pep517
 pip install -r requirements.txt 
