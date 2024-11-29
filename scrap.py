@@ -1,5 +1,3 @@
-# scrap.py
-
 import os
 import requests
 import googlemaps
